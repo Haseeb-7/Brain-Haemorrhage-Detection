@@ -1,0 +1,7 @@
+streamlit
+torch
+timm
+opencv-python-headless
+pydicom
+numpy
+huggingface_hub
