@@ -1,0 +1,20 @@
+{
+  "task": "multi-label classification: one independent sigmoid probability per label",
+  "output_order": [
+    "any",
+    "epidural",
+    "intraparenchymal",
+    "intraventricular",
+    "subarachnoid",
+    "subdural"
+  ],
+  "display_names": {
+    "any": "Any hemorrhage",
+    "epidural": "Epidural",
+    "intraparenchymal": "Intraparenchymal",
+    "intraventricular": "Intraventricular",
+    "subarachnoid": "Subarachnoid",
+    "subdural": "Subdural"
+  },
+  "note": "Output index i of the model corresponds to output_order[i]. This is the alphabetical order produced by pandas when the RSNA labels are pivoted. The original notebook renamed these columns by position, which shifted the names by one; see AUDIT.md."
+}
